@@ -35,7 +35,7 @@ certbot/certbot \
 certonly --webroot \
 --webroot-path=/data/letsencrypt \
 --installer nginx \
---email andrei@planeeet.com --agree-tos --no-eff-email \
+--email you@youremail.com --agree-tos --no-eff-email \
 $DOMAIN_ARGS \
 && cd /docker/letsencrypt-docker-nginx/src/letsencrypt \
 && docker-compose down
