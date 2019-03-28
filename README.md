@@ -6,7 +6,7 @@ Scripts for automating the SSL certificate creation process.
 
 ## Clone this repo
 
-``` https://github.com/gasparandr/letsencrypt-docker.git ```
+``` git clone https://github.com/gasparandr/letsencrypt-docker.git ```
 
 ## Run the init script with your base domain name (e.g. example.com)
 ``` ./init.sh example.com ```
