@@ -1,8 +1,12 @@
 # letsencrypt-docker
-Scripts for automating the SSL certificate creation.
+Scripts for automating the SSL certificate creation process.
 ###### Dependencies: docker && docker-compose
 
 # FOLLOW THE STEPS BELOW TO GET YOUR CERIFICATES:
+
+## Clone this repo
+
+``` https://github.com/gasparandr/letsencrypt-docker.git ```
 
 ## Run the init script with your base domain name (e.g. example.com)
 ``` ./init.sh example.com ```
@@ -16,7 +20,9 @@ Scripts for automating the SSL certificate creation.
 ## Insert your own email into the liverun script to get notified if your certificates are about the expire
 ``` nano liverun.sh - OR - vim liverun.sh ```
 \
+\
 change this line of code with your own email: 
+\
 \
 ``` --email you@youremail.com --agree-tos --no-eff-email \ ```
 
