@@ -44,7 +44,6 @@ You'll be able to find your certs here:
 \
 \
 You can map them into your NGINX container like this:
-\
 
 ```     
 volumes:
