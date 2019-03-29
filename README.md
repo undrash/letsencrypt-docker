@@ -45,11 +45,12 @@ You'll be able to find your certs here:
 \
 You can map them into your NGINX container like this:
 \
-\
-```     volumes:
-      - /docker-volumes/dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
-      - /docker-volumes/etc/letsencrypt/live/{YOUR_DOMAIN}/fullchain.pem:/etc/letsencrypt/live/{YOUR_DOMAIN}/fullchain.pem
-      - /docker-volumes/etc/letsencrypt/live/{YOUR_DOMAIN}/privkey.pem:/etc/letsencrypt/live/{YOUR_DOMAIN}/privkey.pem
+
+```     
+volumes:
+- /docker-volumes/dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
+- /docker-volumes/etc/letsencrypt/live/{YOUR_DOMAIN}/fullchain.pem:/etc/letsencrypt/live/{YOUR_DOMAIN}/fullchain.pem
+- /docker-volumes/etc/letsencrypt/live/{YOUR_DOMAIN}/privkey.pem:/etc/letsencrypt/live/{YOUR_DOMAIN}/privkey.pem
       
 ```
 
