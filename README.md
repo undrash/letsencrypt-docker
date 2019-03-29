@@ -53,3 +53,5 @@ volumes:
       
 ```
 
+## BONUS: Automate your renewal!
+``` ./automate-renewal.sh ```
