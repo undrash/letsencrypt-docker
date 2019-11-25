@@ -19,7 +19,7 @@ done
 
 echo "***** Cleaning up staging artifacts ******"
 
-rm -rf /docker-volumes/
+rm -rf /docker
 
 
 echo "****** GENERATING LIVE CERTIFICATES ******"
